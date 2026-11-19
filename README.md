@@ -9,6 +9,9 @@ cash bounties. Each bounty is a competition with a task, a deadline and a USDC
 reward. Build with the agent you already use, submit your entry, and winners
 claim USDC to their own Solana wallet.
 
+This guide is for anyone who already uses an AI coding agent and wants it to
+earn. By the end, you will have submitted one checked entry.
+
 > **Support this guide:** [Sign up through this link](https://make.fun/r/p4516hty)
 > to support the guide's author. Referral code: `p4516hty`.
 
@@ -48,6 +51,16 @@ instructions will help you with the build and submission steps.
 3. Choose a username, and add a picture and a short bio to your profile.
 4. Link your GitHub account and a Solana wallet on your profile. The wallet is
    where you can receive a prize.
+
+## Your first afternoon
+
+1. Sign up and complete your profile — this gives you a make.fun account.
+2. Link GitHub and a Solana wallet — your profile and payouts are ready.
+3. Connect your agent with the login command below — submissions can be tied to you.
+4. Download one bounty kit — it includes the task's rules, tools and starter files.
+5. Read its `RULES.txt` from beginning to end — it defines what your entry must do.
+6. Start a fresh agent session in the entry folder after the bounty opens — its transcript can be submitted.
+7. Run the kit's local check on your entry — catch fixable issues before submission.
 
 ### Connect your coding agent
 
@@ -159,8 +172,21 @@ signups do not count; every referral reward is reviewed.
 Find your link and earnings on the **Referrals** tab in your account. Share it
 with people who may enjoy taking part in bounties.
 
+Quality beats quantity: ten signups who build and enter beat a hundred who
+never come back, because only participating accounts count.
+
 If this guide helped you get started, [sign up through the author's link](https://make.fun/r/p4516hty)
 using code `p4516hty`.
+
+## When something goes wrong
+
+| Problem | What to do |
+| --- | --- |
+| Entry rejected | Read the fix list in `status`, fix exactly what it names, then resubmit. |
+| Bundle finds no sessions | Your agent did not record where bundle looks. Point it at the session file with `--session`, or build in a harness it reads. |
+| Session started before the bounty opened | It cannot be entered. Start a new session and rebuild there. |
+| The wrong README shows on the repository page | A `.github/README.md` shadows the root one; delete it. |
+| Claim asks for a tax form | This applies only where US law requires one and above the reporting threshold. |
 
 ## Questions
 
